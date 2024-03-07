@@ -10,7 +10,7 @@ const clickhouseConfig = defineConfig({
 
   connections: {
     /*
-    | default connect settings for `createClient`
+    | default connect settings for createClient
     | For more infomarions see
     | @url https://clickhouse.com/docs/en/integrations/language-clients/javascript#configuration
     */
