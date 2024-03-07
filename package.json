@@ -1,6 +1,6 @@
 {
   "name": "adonis-clickhouse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "AdonisJS addon for ClickHouse",
   "main": "build/index.js",
@@ -64,7 +64,6 @@
   },
   "dependencies": {
     "@clickhouse/client": "^0.2.10",
-    "@poppinss/utils": "^6.7.2",
-    "adonis-clickhouse": "workspace:1.0.0-pre.2"
+    "@poppinss/utils": "^6.7.2"
   }
 }
