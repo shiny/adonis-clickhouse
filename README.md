@@ -5,7 +5,7 @@
 
 A third-party wrapper for `@clickhouse/client` in AdonisJS v6.
 
-<del>Copied</del> Inspired a lot by [@adonijs/redis](https://github.com/adonisjs/redis/).
+<del>Copied a lot from</del> Inspired a lot by [@adonijs/redis](https://github.com/adonisjs/redis/).
 
 ## Installation
 
@@ -52,8 +52,8 @@ await client.query({
 })
 ```
 
-## Multi Database Instance
-You can config the multi database and use `manager` to connect it.
+## Multi Database Instances
+You can config the multi databases and use `manager` to connect it.
 
 ```typescript
 import { manager } from 'adonis-clickhouse/services/main'
