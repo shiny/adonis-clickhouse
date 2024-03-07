@@ -1,6 +1,6 @@
 {
   "name": "adonis-clickhouse",
-  "version": "1.0.0-alpha.3",
+  "version": "1.0.0",
   "type": "module",
   "description": "AdonisJS addon for ClickHouse",
   "main": "build/index.js",
