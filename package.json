@@ -42,7 +42,8 @@
     "nock": "^13.5.4",
     "ts-node": "^10.9.2",
     "tsup": "^8.0.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "copyfiles": "^2.4.1"
   },
   "peerDependencies": {
     "@adonisjs/core": "^6.1.5-27"
@@ -63,7 +64,6 @@
   },
   "dependencies": {
     "@clickhouse/client": "^0.2.10",
-    "@poppinss/utils": "^6.7.2",
-    "copyfiles": "^2.4.1"
+    "@poppinss/utils": "^6.7.2"
   }
 }
