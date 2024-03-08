@@ -25,9 +25,21 @@
     "postcompile": "npm run copy:templates",
     "test": "node --loader ts-node/esm --enable-source-maps bin/test.ts"
   },
-  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/shiny/adonis-clickhouse/issues"
+  },
+  "keywords": [
+    "adonisjs",
+    "adonis6",
+    "clickhouse"
+  ],
   "author": "Chieh",
   "license": "MIT",
+  "homepage": "https://github.com/shiny/adonis-clickhouse",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiny/adonis-clickhouse.git"
+  },
   "devDependencies": {
     "@adonisjs/assembler": "^7.2.2",
     "@adonisjs/core": "^6.3.1",
