@@ -1,9 +1,16 @@
-# ClickHouse for AdonisJS v6
+<div align="center">
+  <img src="https://i.imgur.com/ACueL87.png" />
+  <h3>ClickHouse for AdonisJS v6</h3>
+  <p>A third-party wrapper for `@clickhouse/client` in AdonisJS v6.</p>
+  <a href="https://www.npmjs.com/package/adonis-clickhouse">
+    <img src="https://img.shields.io/npm/v/adonis-clickhouse.svg?style=for-the-badge&logo=npm" />
+  </a>
+  <img src="https://img.shields.io/npm/l/adonis-clickhouse?color=blueviolet&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Typescript-294E80.svg?style=for-the-badge&logo=typescript" />
+</div>
 
 > [!CAUTION]
 > This package is not compatible with AdonisJS v5.
-
-A third-party wrapper for `@clickhouse/client` in AdonisJS v6.
 
 <del>Copied a lot from</del> Inspired a lot by [@adonijs/redis](https://github.com/adonisjs/redis/).
 
@@ -18,6 +25,16 @@ node ace configure adonis-clickhouse
 
 You can change it in `config/clickhouse.ts`, it's all same with `createClient` Configuration.
 here is the details: https://clickhouse.com/docs/en/integrations/language-clients/javascript#configuration
+
+## Environment Variables
+
+- `CLICKHOUSE_DB` Database Name, default `default`
+- `CLICKHOUSE_USER` User, default `default`
+- `CLICKHOUSE_PASSWORD` Password, default empty string `''`
+- `CLICKHOUSE_HOST` Clickhouse connect url, default `http://localhost:8123`
+- `CLICKHOUSE_REQUEST_TIMEOUT` The request timeout in milliseconds. Default value: `30000`(30s)
+- `CLICKHOUSE_COMPRESSION_REQUEST` Enables compression on the client request body, default `false`
+- `CLICKHOUSE_COMPRESSION_RESPONSE` Instructs ClickHouse server to respond with compressed response body. Default value: `true`
 
 ## How to import
 As it is a container service, you can init it by
