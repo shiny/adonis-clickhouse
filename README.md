@@ -27,14 +27,15 @@ You can change it in `config/clickhouse.ts`, it's all same with `createClient` C
 here is the details: https://clickhouse.com/docs/en/integrations/language-clients/javascript#configuration
 
 ## Environment Variables
-
-- `CLICKHOUSE_DB` Database Name, default `default`
-- `CLICKHOUSE_USER` User, default `default`
-- `CLICKHOUSE_PASSWORD` Password, default empty string `''`
-- `CLICKHOUSE_HOST` Clickhouse connect url, default `http://localhost:8123`
-- `CLICKHOUSE_REQUEST_TIMEOUT` The request timeout in milliseconds. Default value: `30000`(30s)
-- `CLICKHOUSE_COMPRESSION_REQUEST` Enables compression on the client request body, default `false`
-- `CLICKHOUSE_COMPRESSION_RESPONSE` Instructs ClickHouse server to respond with compressed response body. Default value: `true`
+|Variable|Description|Default Value|
+|---|---|---|
+|`CLICKHOUSE_DB`|Database Name|`default`|
+|`CLICKHOUSE_USER`| User|`default`|
+|`CLICKHOUSE_PASSWORD`| Password|empty string `''`|
+|`CLICKHOUSE_HOST`| Clickhouse connect url|`http://localhost:8123`|
+|`CLICKHOUSE_REQUEST_TIMEOUT`|The request timeout in milliseconds.|`30000`(30s)|
+|`CLICKHOUSE_COMPRESSION_REQUEST`| Enables compression on the client request body|`false`|
+|`CLICKHOUSE_COMPRESSION_RESPONSE`| Instructs ClickHouse server to respond with compressed response body. |`true`|
 
 ## How to import
 As it is a container service, you can init it by
