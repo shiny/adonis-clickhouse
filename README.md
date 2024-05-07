@@ -15,6 +15,8 @@
 <del>Copied a lot from</del> Inspired a lot by [@adonijs/redis](https://github.com/adonisjs/redis/).
 
 ## Installation
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fshiny%2Fadonis-clickhouse.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fshiny%2Fadonis-clickhouse?ref=badge_shield)
+
 
 ```bash
 npm install --save adonis-clickhouse
@@ -88,3 +90,7 @@ See [Offical ClickHouse JS Library](https://clickhouse.com/docs/en/integrations/
 
 ## Lisence
 the MIT
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fshiny%2Fadonis-clickhouse.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fshiny%2Fadonis-clickhouse?ref=badge_large)
