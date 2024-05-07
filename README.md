@@ -97,7 +97,7 @@ See [Offical ClickHouse JS Library](https://clickhouse.com/docs/en/integrations/
 
 This project is contributed by u301 team for giving back to the AdonisJS community.
 
-If you are looking for a queue solution for AdonisJS, take a look at [adonis-queue](https://github.com/shiny/adonis-queue).
+If you are looking for a queue solution for AdonisJS, take a look at [adonis-resque](https://github.com/shiny/adonis-resque).
 
 ## Lisence
 the MIT
