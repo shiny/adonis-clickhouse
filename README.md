@@ -17,8 +17,7 @@
 ## Installation
 
 ```bash
-npm install --save adonis-clickhouse
-node ace configure adonis-clickhouse
+node ace add adonis-clickhouse
 ```
 
 ## Configuration
@@ -86,5 +85,21 @@ await client.query({
 
 See [Offical ClickHouse JS Library](https://clickhouse.com/docs/en/integrations/language-clients/javascript)
 
+
+## Who's Using
+[Create an issue](https://github.com/shiny/adonis-clickhouse/issues/new) to submit your project.
+
+<div>
+<a href="https://u301.com/"><img src="https://u301.com/img/u301-logo.png" style="width:120px" /></a>
+</div>
+
+## Contributors
+
+This project is contributed by u301 team for giving back to the AdonisJS community.
+
+If you are looking for a queue solution for AdonisJS, take a look at [adonis-queue](https://github.com/shiny/adonis-queue).
+
 ## Lisence
 the MIT
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fshiny%2Fadonis-clickhouse.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fshiny%2Fadonis-clickhouse?ref=badge_large)
