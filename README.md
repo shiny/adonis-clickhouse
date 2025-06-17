@@ -14,6 +14,7 @@
 
 <del>Copied a lot from</del> Inspired a lot by [@adonijs/redis](https://github.com/adonisjs/redis/).
 
+You may also looking for [ClickHouseSqlBuilder](https://github.com/shiny/ClickHouseSqlBuilder)
 ## Installation
 
 ```bash
